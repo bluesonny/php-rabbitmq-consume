@@ -155,4 +155,5 @@ class DelayRabbitMq
             //无应答 会存放在unacked状态下重连会放回ready，如果发送unack 状态 后会直接放回 ready 
         }
     }
+    
 }
